@@ -28,7 +28,7 @@ add_action('my_custom_import_orders_schedule', 'my_custom_import_orders');
 
 function my_custom_import_orders() {
     // Получаем заказы с Яндекс.Маркета
-    $api_key = '7D6E31D1404148DBB8CE394E167D5DD29E0000015E8A0737';
+    $api_key = 'MY_API_KEY';
     $api_url = 'https://api.market.yandex.ru/v2/orders';
 
     // Определяем период времени для получения заказов (7 дней назад до текущей даты)
